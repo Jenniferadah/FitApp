@@ -1,0 +1,177 @@
+body {
+    font-family: "Montserrat" ;
+}
+
+#title {
+background-color: rgb(122, 204, 174);
+color:#fff ;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h2 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 3rem;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p {
+    color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2 rem ;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px ;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-family: "Montserrat-light";
+}
+
+/* Download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* title image */
+.title-image1 {
+width: 95%; 
+position: relative;
+left: 50%;
+}
+.image-2{
+    width: 95%;
+    position: relative;
+    left: 50%;
+}
+.image3 {
+    width: 95%;
+    position: relative;
+    left: 50%;
+}
+
+/* features section */
+#features {
+    padding: 7% 15%;
+   
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%
+}
+
+.icon {
+    color: rgb(122, 204, 174);
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color:rgb(80, 136, 116); 
+}
+
+/* Testimonial section */
+#testimonials {
+text-align: center;
+background-color :rgb(113, 173, 151);
+color: #fff;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    
+}
+
+
+#press {
+    background-color:rgb(113, 173, 151);
+    text-align: center;
+    padding: 3%;
+}
+
+.presss-logo {
+    width: 70% ;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA */
+#cta {
+    background-color:rgb(113, 173, 151) ;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer section */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image1 {
+        position: relative;
+        width: 100%;
+    }
+    .image-2 {
+        position: relative;
+        width: 100% ;
+    }
+    .image3 {
+        position: relative;
+        width: 100%;
+    }
+}
